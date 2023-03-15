@@ -1,0 +1,70 @@
+.heading {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 75px;
+    padding: 15px;
+    border-radius: 10px;
+    border:4px solid rgb(62, 71, 204);
+    
+
+
+}
+h2 {
+    border-bottom: 2px solid black;
+    display:inline-block
+}
+
+.heading h1{
+    color:rgb(62, 71, 204);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5px;
+}
+
+.nav-bar {
+    display:flex;
+    flex-direction: column;
+    width: auto;
+    margin-top: 15px;
+    font-size: 25px;
+    border: 3px solid rgb(62, 71, 204);
+}
+
+a{
+    
+    color: rgb(62, 71, 204);
+    
+}
+a:hover {
+    background-color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    Margin: 0 auto;
+    Width : 25%
+}
+
+
+form label{
+    margin:50px
+}
+
+#your-message {
+    margin-right: 32px;
+    }
+
+form button{
+        margin-left: 60px
+    }
+
+.footer{
+    text-align: center;
+    margin: 100px;
+    color:rgb(128, 128, 128);
+}
+
+#author{
+    margin-bottom: 3px;
+
+}
